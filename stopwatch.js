@@ -69,7 +69,7 @@ function stopWatch() {
         document.getElementById("hours").innerHTML = hr;
         document.getElementById("milliseconds").innerHTML = milliseconds;
 
-        lapping = hr + ":" + min + ":" + sec + ":" + milliseconds;
+        lapping = hr + " hr " + min + " min " + sec + " sec " + milliseconds;
         document.getElementById("lap").innerHTML = lapping;
 
     }
